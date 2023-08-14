@@ -1,0 +1,60 @@
+button {
+    color: white;
+    background-color: blue;
+}
+
+header {
+    text-align: right;
+}
+
+h1 {
+    color: rgb(37, 60, 87);
+    background-color: rgb(137, 213, 210);
+    text-align: center;
+    font-size: 40px;
+    margin: 0%;
+}
+
+h2 {
+    color: rgb(37, 60, 87);
+    background-color: rgb(137, 213, 210);
+    text-align: center;
+
+}
+.link {
+    text-align: center;
+}
+
+.wsl {
+    text-align: center;
+    margin-left: 38%;
+}
+
+.gamesTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    text-align: center;
+}
+
+tr:hover {background-color: coral;}
+
+.teamPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contentContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;   
+    margin-top: 20px;
+  }
+  
+  .playerList,
+  .teamSchedule {
+    flex: 1;    
+  }
